@@ -1,5 +1,5 @@
 package com.example.lastchatapp;
-
+//This is the file that i added to check whether it is updated ot the git or not
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.geometry.Insets;
@@ -50,7 +50,7 @@ public class chat2GUI extends Application {
                 connectToServer(serverIP);
                 showChatWindow(primaryStage);
             } else {
-                showAlert("Error", "Username and Server IP are required!");
+                showAlert("Error", "Notification: Username and Server IP are required!");
             }
         });
     }
